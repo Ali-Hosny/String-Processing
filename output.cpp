@@ -21,7 +21,7 @@ void printStatistics(Stats stats) {
 
     cout << "Match Positions: ";
     if(stats.positions.empty()) {
-        cout << "None";
+        cout << "None\n";
     }
     else {
         for(int pos : stats.positions) {
