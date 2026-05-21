@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build all",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\main.cpp",
+                "${workspaceFolder}\\file_io.cpp",
+                "${workspaceFolder}\\output.cpp",
+                "${workspaceFolder}\\search_algorithms.cpp",
+                "${workspaceFolder}\\search_ui.cpp",
+                "${workspaceFolder}\\text_store.cpp",
+                "-o",
+                "${workspaceFolder}\\main.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Builds the full project."
+        }
+    ],
+    "version": "2.0.0"
+}
